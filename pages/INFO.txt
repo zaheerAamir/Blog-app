@@ -1,0 +1,6 @@
+NOTE: 
+every folder or directory that u will create under pages folder
+will have a index.tsx file which will be its root file.
+
+whatever u code inside the index file u can see that by typing
+the http://localhost:3000/directory-name
