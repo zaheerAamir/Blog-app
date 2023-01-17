@@ -13,3 +13,5 @@ Tech stack used⚙️:
 1. Next.JS
 2. Firestore for data modeling and storing user's data.
 3. Firebase Authenticaton to authenticate a user with it's email
+
+<img src='./public/Screenshot (1)cropped.png' height=500px width=850px/>
