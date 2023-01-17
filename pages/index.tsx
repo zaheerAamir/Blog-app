@@ -64,7 +64,7 @@ export default function Home(props) {
   return (
     <main>
       <MetaTags title='Home page' description='Home page' image='Home Pgae'/>
-      <h1>hwlllo</h1>
+      <h1>View all posts: </h1>
       <Post Post={posts}/>
       
       {!loading && !postend && <button onClick={getMorePost}>load more</button>}
