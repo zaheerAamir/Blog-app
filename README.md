@@ -3,7 +3,7 @@
 A user can create a blog once they are signed in with their google account.
 Once the User is signed in, he/she can create a custom username that will be associated with the user's account.
 
-More Features✨: 
+Features✨: 
 1. Home Page : Server side rendering with paginated contents
 2. User profile Page: Full server side rendering
 3. posting a Like on a blog with the Heart Button.
@@ -15,3 +15,5 @@ Tech stack used⚙️:
 3. Firebase Authenticaton to authenticate a user with it's email
 
 <img src='./public/Screenshot (1)cropped.png' height=500px width=850px/>
+
+WEBSITE LINK: https://blog-o6xgy8xbc-zaheeraamir.vercel.app
