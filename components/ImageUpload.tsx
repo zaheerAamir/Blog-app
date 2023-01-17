@@ -11,7 +11,7 @@ export default function ImageUploader() {
     //CREATE a Firebase Upload Task: 
     const uploadfile = async (e) => {
         //GET the file
-        const file = Array.from(e.target.files)[0]
+        const file: any = Array.from(e.target.files)[0]
         const extension = file.type.split('/')[1]
 
         //Makes reference to the storage bucket location
@@ -21,7 +21,7 @@ export default function ImageUploader() {
         //Starts the upload
         const Task = await ref.put(file)
 
-        const percent1 = ((Task.bytesTransferred / Task.totalBytes) * 100).toFixed(0)
+        const percent1: any = ((Task.bytesTransferred / Task.totalBytes) * 100).toFixed(0)
         setProgress(percent1)
         
         //Gets the download url of the inserted file:
