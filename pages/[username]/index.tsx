@@ -45,7 +45,7 @@ export default function UserProfilePage({user, post}) {
     return (
         <main>
            <UserProfile user={user}/>
-           <Post Post={post}/>
+           <Post admin={false} Post={post}/>
         </main>
     )
 }
