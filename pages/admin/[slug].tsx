@@ -25,9 +25,9 @@ export default function AdminPostEdit() {
 function PostManager() {
     const [preview, setPreview] = useState(false)
     const router = useRouter()
-    const { slug } = router.query
+    const { slug }: any = router.query
 
-    const postref = firestore.collection('user').doc(auth.currentUser.uid).collection('posts').doc(slug)
+    const postref: any = firestore.collection('user').doc(auth.currentUser.uid).collection('posts').doc(slug)
     const [post] = useDocumentData(postref)
 
     return (

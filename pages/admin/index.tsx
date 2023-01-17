@@ -25,7 +25,7 @@ export default function Page() {
 
 function PostList() {
     const ref = firestore.collection('user').doc(auth.currentUser.uid).collection('posts')
-    const query = ref.orderBy('createdAt')
+    const query: any = ref.orderBy('createdAt')
     const [querysnapshot] = useCollection(query)
 
     const posts = querysnapshot?.docs.map((doc) => doc.data())
