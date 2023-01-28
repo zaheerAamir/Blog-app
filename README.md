@@ -16,4 +16,4 @@ Tech stack used⚙️:
 
 <img src='./public/Screenshot (1)cropped.png' height=500px width=850px/>
 
-WEBSITE LINK: https://blog-o6xgy8xbc-zaheeraamir.vercel.app
+WEBSITE LINK: https://blog-8fuvdjid9-zaheeraamir.vercel.app/
